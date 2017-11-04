@@ -1,15 +1,4 @@
-# Reliese Laravel
 
-[![StyleCI](https://styleci.io/repos/71080508/shield?style=flat)](https://styleci.io/repos/71080508)
-[![Build Status](https://travis-ci.org/reliese/laravel.svg?branch=master)](https://travis-ci.org/reliese/laravel)
-[![Latest Stable Version](https://poser.pugx.org/reliese/laravel/v/stable)](https://packagist.org/packages/reliese/laravel)
-[![Total Downloads](https://poser.pugx.org/reliese/laravel/downloads)](https://packagist.org/packages/reliese/laravel)
-[![Latest Unstable Version](https://poser.pugx.org/reliese/laravel/v/unstable)](https://packagist.org/packages/reliese/laravel)
-[![License](https://poser.pugx.org/reliese/laravel/license)](https://packagist.org/packages/reliese/laravel)
-
-Reliese Laravel is a collection of Laravel Components which aim is 
-to help the development process of Laravel applications by 
-providing some convenient code-generation capabilities.
 
 ## How does it work?
 
@@ -54,10 +43,6 @@ public function register()
 }
 ```
 
-## Models
-
-![Generating models with artisan](https://cdn-images-1.medium.com/max/800/1*hOa2QxORE2zyO_-ZqJ40sA.png "Making artisan code my Eloquent models")
-
 Add the `models.php` configuration file to your `config` directory and clear the config cache:
 
 ```shell
@@ -96,7 +81,7 @@ php artisan code:models --schema=shop
 ### Customizing Model Scaffolding
 
 To change the scaffolding behaviour you can make `config/models.php` configuration file
-fit your database needs. [Check it out](https://github.com/reliese/laravel/blob/master/config/models.php) ;-)
+fit your database needs.
 
 ### Tips
 
